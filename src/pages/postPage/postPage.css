@@ -1,0 +1,51 @@
+.page {
+    width: 50%;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+.page__wrapper {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.page__author {
+    display: flex;
+    align-items: center;
+}
+.page__author .text {
+    font-size: 18px;
+}
+.page__date {
+    display: flex;
+}
+.page__date i {
+    font-size: 24px;
+}
+.page__date .text{
+    font-size: 18px;
+    text-align: right;
+}
+.page__title {
+    font-size: 26px;
+    font-weight: 700;
+}
+.page__url {
+    margin: 100px 0;
+    border-radius: 20px;
+}
+.page__count {
+    font-size: 24px;
+}
+hr {
+    border: 1px solid black;
+}
+.returnBtn {
+    position: absolute;
+    left: 50px;
+}
+.no-comments {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+}

@@ -1,0 +1,41 @@
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+}
+.list-group-item-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333741;
+    text-decoration: none;
+}
+.list-group-item-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-group-item-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-group-item-subtitle {
+    font-size: 18px;
+    color: gray;
+}
+.list-group-item-date {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+    text-align: right;
+}
+.author {
+    display: flex;
+    align-items: center;
+}
+.score {
+    display: flex;
+    align-items: center;
+}
+i {
+    margin-right: 10px;
+}
